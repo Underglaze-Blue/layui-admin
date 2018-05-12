@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>资金监管平台后台管理平台</title>
+	<link rel="stylesheet" type="text/css" href="../../static/admin/layui/css/layui.css" />
+	<link rel="stylesheet" type="text/css" href="../../static/admin/css/admin.css" />
+</head>
+
+<body>
+	<div class="main-layout" id='main-layout'>
+		<!--侧边栏-->
+		<div class="main-layout-side">
+			<div class="m-logo">
+			</div>
+			<ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
+				<li class="layui-nav-item layui-nav-itemed">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe607;</i>菜单管理</a>
+					<dl class="layui-nav-child">
+						<dd>
+							<a href="javascript:;" data-url="menu1.html" data-id='1' data-text="后台菜单">
+								<span class="l-line"></span>后台菜单</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="menu2.html" data-id='2' data-text="前台菜单">
+								<span class="l-line"></span>前台菜单</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe608;</i>政策管理</a>
+					<dl class="layui-nav-child">
+						<dd>
+							<a href="javascript:;" data-url="article-list.html" data-id='3' data-text="民生政策管理">
+								<span class="l-line"></span>民生政策管理</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="danye-list.html" data-id='9' data-text="扶贫政策管理">
+								<span class="l-line"></span>扶贫政策管理</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="introduction-detail.html" data-id='111' data-text="基本简介管理">
+						<i class="iconfont">&#xe604;</i>基本简介管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe60c;</i>民生资金管理</a>
+					<dl class="layui-nav-child">
+						<dd>
+							<a href="javascript:;" data-url="livelihood-list.html" data-id="10010" data-text="民生项目管理">
+								<span class="l-line"></span>民生项目管理</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="menu2.html" data-id='10011' data-text="项目支出管理">
+								<span class="l-line"></span>项目支出管理</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="menu2.html" data-id='10012' data-text="到户资金管理">
+								<span class="l-line"></span>到户资金管理</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe60a;</i>扶贫资金管理</a>
+					<dl class="layui-nav-child">
+						<dd>
+							<a href="javascript:;" data-url="poverty-list.html" data-id="20010" data-text="扶贫项目管理">
+								<span class="l-line"></span>扶贫项目管理</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="poverty-expend-list.html" data-id='20011' data-text="扶贫支出管理">
+								<span class="l-line"></span>扶贫支出管理</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="poverty-toHome-list.html" data-id='20012' data-text="扶贫资金管理">
+								<span class="l-line"></span>到户资金管理</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe60d;</i>村级财务管理</a>
+					<dl class="layui-nav-child">
+						<dd>
+							<a href="javascript:;" data-url="village-expend-list.html" data-id="300311" data-text="支出明细">
+								<span class="l-line"></span>支出明细</a>
+						</dd>
+						<dd>
+							<a href="javascript:;" data-url="village-income-list.html" data-id='300312' data-text="收入明细">
+								<span class="l-line"></span>收入明细</a>
+						</dd>
+					</dl>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="supervision-list.html" data-id='30032' data-text="监督执纪管理">
+						<i class="iconfont">&#xe60d;</i>监督执纪管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="work-list.html" data-id='30033' data-text="工作动态管理">
+						<i class="iconfont">&#xe60d;</i>工作动态管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="complaints-list.html" data-id='4' data-text="投诉管理">
+						<i class="iconfont">&#xe603;</i>投诉管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;">
+						<i class="iconfont">&#xe600;</i>备份管理</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">
+						<i class="iconfont">&#xe606;</i>个人信息</a>
+				</li>
+				<li class="layui-nav-item">
+					<a href="javascript:;" data-url="system.html" data-id='6' data-text="系统设置">
+						<i class="iconfont">&#xe60b;</i>系统设置</a>
+				</li>
+			</ul>
+		</div>
+		<!--右侧内容-->
+		<div class="main-layout-container">
+			<!--头部-->
+			<div class="main-layout-header">
+				<div class="menu-btn" id="hideBtn">
+					<a href="javascript:;">
+						<span class="iconfont">&#xe60e;</span>
+					</a>
+				</div>
+				<ul class="layui-nav" lay-filter="rightNav">
+					<li class="layui-nav-item">
+						<a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统">
+							<i class="iconfont">&#xe603;</i>
+						</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">超级管理员</a>
+					</li>
+					<li class="layui-nav-item">
+						<a href="javascript:;">退出</a>
+					</li>
+				</ul>
+			</div>
+			<!--主体内容-->
+			<div class="main-layout-body">
+				<!--tab 切换-->
+				<div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
+					<ul class="layui-tab-title">
+						<li class="layui-this welcome">后台主页</li>
+					</ul>
+					<div class="layui-tab-content">
+						<div class="layui-tab-item layui-show" style="background: #f5f5f5;">
+							<!--1-->
+							<iframe src="welcome.html" width="100%" height="100%" name="iframe" scrolling="auto" class="iframe" framborder="0"></iframe>
+							<!--1end-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--遮罩-->
+		<div class="main-mask">
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		var scope = {
+			link: './welcome.html'
+		}
+	</script>
+	<script src="../../static/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../static/admin/js/main.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>

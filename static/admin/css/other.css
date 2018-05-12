@@ -1,0 +1,78 @@
+.mine-nowrap {
+  white-space: nowrap;
+}
+
+.poverty-add {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.button-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label100 {
+  width: 100px;
+}
+
+.marginL130 {
+  margin-left: 130px;
+}
+
+#imageList {
+  overflow: hidden;
+}
+
+#imageList .image-item {
+  width: 300px;
+  padding-bottom: 300px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+#imageList .image-item .image-bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #000000;
+}
+
+#imageList .image-item img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.layui-elem-quote {
+  border-left: 5px solid #009688;
+  margin-left: 110px;
+}
+
+.layui-form {
+  overflow-x: scroll;
+}
+
+.layui-table {
+  overflow-x: scroll;
+}
+
+.layui-table td {
+  white-space: nowrap;
+}
+
+.marginAuto {
+  width: 45%;
+  margin: 20px auto auto;
+}
+
+.widthAuto{
+  margin-left: 0;
+  width: 80%;
+}
