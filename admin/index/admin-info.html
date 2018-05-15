@@ -27,19 +27,19 @@
 				  <div class="layui-form-item">
 				    <label class="layui-form-label">用户名：</label>
 				    <div class="layui-input-block">
-				      <input type="text" name="username" disabled autocomplete="off" class="layui-input layui-disabled" value="admin">
+				      <input type="text" name="username" disabled autocomplete="off" class="layui-input layui-disabled" value="">
 				    </div>
 				  </div>
 				   <div class="layui-form-item">
 				    <label class="layui-form-label">姓名：</label>
 				    <div class="layui-input-block">
-				      <input type="text" name="name" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" value="未知">
+				      <input type="text" name="name" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" value="">
 				    </div>
 				  </div>
 				  <div class="layui-form-item">
 				    <label class="layui-form-label">邮箱：</label>
 				    <div class="layui-input-block">
-				      <input type="text" name="email" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" value="5303588521@qq.com">
+				      <input type="text" name="email" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input" value="">
 				    </div>
 				  </div>
 				  <div class="layui-form-item layui-form-text">
@@ -94,8 +94,8 @@
 	<script>
 		//Demo
 		layui.use(['form','element'], function(){
-		  var form = layui.form();
-		  var element = layui.element();
+		  var form = layui.form;
+		  var element = layui.element;
 		  form.render();
 		  //监听信息提交
 		  form.on('submit(adminInfo)', function(data){

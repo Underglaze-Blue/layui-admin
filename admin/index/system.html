@@ -26,19 +26,19 @@
 						<div class="layui-form-item">
 							<label class="layui-form-label">网站名称：</label>
 							<div class="layui-input-block">
-								<input type="text" name="webname" autocomplete="off" class="layui-input" value="mfan科技有限公司">
+								<input type="text" name="webname" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">网站域名：</label>
 							<div class="layui-input-block">
-								<input type="text" name="domain" autocomplete="off" class="layui-input" value="www.mfancms.com">
+								<input type="text" name="domain" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">站长邮箱：</label>
 							<div class="layui-input-block">
-								<input type="text" name="email" required lay-verify="required" placeholder="请输入联系邮箱" autocomplete="off" class="layui-input" value="5303588521@qq.com">
+								<input type="text" name="email" required lay-verify="required" placeholder="请输入联系邮箱" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
@@ -57,13 +57,13 @@
 						<div class="layui-form-item">
 							<label class="layui-form-label">备案信息：</label>
 							<div class="layui-input-block">
-								<input type="text" name="icp" required lay-verify="required" placeholder="请输入备案信息" autocomplete="off" class="layui-input" value="黔ICP备16007047">
+								<input type="text" name="icp" required lay-verify="required" placeholder="请输入备案信息" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">版权信息：</label>
 							<div class="layui-input-block">
-								<input type="text" name="email" required lay-verify="required" placeholder="请输入版权信息" autocomplete="off" class="layui-input" value="遵义依来德防水保温公司 copyRight © 2016">
+								<input type="text" name="email" required lay-verify="required" placeholder="请输入版权信息" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item layui-form-text">
@@ -119,25 +119,25 @@
 						<div class="layui-form-item">
 							<label class="layui-form-label">服务器：</label>
 							<div class="layui-input-block">
-								<input type="text" name="smtp" placeholder="请输入邮件服务器" autocomplete="off" class="layui-input" value="smtp.163.com">
+								<input type="text" name="smtp" placeholder="请输入邮件服务器" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">端口：</label>
 							<div class="layui-input-block">
-								<input type="text" name="port" placeholder="请输入邮件发送端口" autocomplete="off" class="layui-input" value="25">
+								<input type="text" name="port" placeholder="请输入邮件发送端口" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">发件人：</label>
 							<div class="layui-input-block">
-								<input type="text" name="email" placeholder="请输入发件人地址" autocomplete="off" class="layui-input" value="admin@abc3210.com">
+								<input type="text" name="email" placeholder="请输入发件人地址" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
 							<label class="layui-form-label">名称：</label>
 							<div class="layui-input-block">
-								<input type="text" name="name" placeholder="请输入发件人名称" autocomplete="off" class="layui-input" value="mfan管理员">
+								<input type="text" name="name" placeholder="请输入发件人名称" autocomplete="off" class="layui-input" value="">
 							</div>
 						</div>
 						<div class="layui-form-item">
@@ -188,8 +188,8 @@
 		<script>
 			//Demo
 			layui.use(['form', 'element'], function() {
-				var form = layui.form();
-				var element = layui.element();
+				var form = layui.form;
+				var element = layui.element;
 				form.render();
 				//监听信息提交
 				form.on('submit(siteInfo)', function(data) {

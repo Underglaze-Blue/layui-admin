@@ -93,7 +93,7 @@
 		<script>
 			
 			layui.use(['form', 'jquery', 'laydate', 'layer', 'laypage', 'dialog', 'common', 'tool', 'element', 'upload', 'layedit'], function() {
-				var form = layui.form(),
+				var form = layui.form,
 					layer = layui.layer,
 					$ = layui.jquery,
 					laypage = layui.laypage,
@@ -101,7 +101,7 @@
 					layedit = layui.layedit,
 					common = layui.common,
 					tool = layui.tool,
-					element = layui.element(),
+					element = layui.element,
 					dialog = layui.dialog;
 
 				//获取当前iframe的name值
